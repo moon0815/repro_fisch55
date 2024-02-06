@@ -141,15 +141,15 @@ function registerDevices() {
   //registerDevice({snr: 01399553, name:"PowerPlug2", type:25 })
   //registerDevice({snr: 01185462, name:"Handsender", type:07})
   registerDevice({snr: 00601287, name:"Markise"  , type:21 })
-  registerDevice({snr: 00594882, name:"Wetterstation", type:06 })
+  registerDevice({snr: 00594882, name:"Wetterstation", type:6 })
   registerDevice({snr: 00476368, name:"Schlafzimmer", type:21 })
   registerDevice({snr: 00601290, name:"Westtür", type:21 })
   registerDevice({snr: 00502950, name:"Südtür", type:21 })
-  registerDevice({snr: 00529408, name:"Westfenster", type:21 })
+  registerDevice({snr: 00525408, name:"Westfenster", type:21 })
   registerDevice({snr: 00601319, name:"Südfenster", type:21 })
-  registerDevice({snr: 01139258, name:"Webcontrol pro", type:09 })
+  registerDevice({snr: 01139258, name:"Webcontrol pro", type:9 })
   registerDevice({snr: 00716959, name:"Webcontrol", type:63 })
-  registerDevice({snr: 00045768, name:"Handsender", type:07})
+  registerDevice({snr: 00045768, name:"Handsender", type:7})
 
   return;
   if (forceDevices && forceDevices.length) {
