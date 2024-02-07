@@ -150,7 +150,7 @@ function registerDevices() {
   //registerDevice({snr: 01139258, name:"Webcontrol pro", type:9 })
   //registerDevice({snr: 00716959, name:"Webcontrol", type:63 })
   //registerDevice({snr: 00045768, name:"Handsender", type:7})
-registerDevice(snr: element, element.type)
+registerDevice(element.snr, element.type)
   return;
   if (forceDevices && forceDevices.length) {
     forceDevices.forEach(element => {
