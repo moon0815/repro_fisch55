@@ -22,6 +22,7 @@ var shade_position = []
 
 function registerDevice(element) {
   console.log('Registering ' + element.snr)
+  registerDevice({snr: element, element.type)}
   if(element.name == undefined) {
 	  element.name=element.snr.toString()
   }
